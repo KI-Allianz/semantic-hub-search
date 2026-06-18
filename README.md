@@ -40,7 +40,7 @@ Derzeit enthält das Repository folgende Dateien:
 
 ## Architektur und technische Umsetzung
 
-Die als Service implementierte **Semantic-Hub-Search**-Komponente vermittelt zwischen dem Repository (Piveau-Hub-Repo) und der Suchmaschine (Elasticsearch) für die Indizierung von Daten sowie zwischen dem Frontend (Piveau-Hub-UI) und Elasticsearch für die eigentliche Suche. Die Komponente ermöglicht die Volltextsuche von indizierten Ressourcen (Datasets, Kataloge und Vokabulare), die dem Standard [DCAT-AP](https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/dcat-ap) entsprechen. Ressourcen werden in Elasticsearch indiziert und durch eine REST-Schnittstelle via des Elasticsearch [Java-API-Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/8.17/index.html) abgefragt.
+Die als Service implementierte **Semantic-Hub-Search**-Komponente vermittelt zwischen dem Repository (Piveau-Hub-Repo) und der Suchmaschine (Elasticsearch) für die Indizierung von Daten sowie zwischen dem Frontend (Piveau-Hub-UI) und Elasticsearch für die eigentliche Suche. Die Komponente ermöglicht die Volltextsuche von indizierten DCAT-Ressourcen (Datasets, Kataloge und Vokabulare), die dem Standard [DCAT-AP](https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/dcat-ap) entsprechen. Ressourcen werden in Elasticsearch indiziert und durch eine REST-Schnittstelle via des Elasticsearch [Java-API-Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/8.17/index.html) abgefragt.
 
 ![C4 Container Architekturdiagramm](docs/c4-container-diagram.png)
 
